@@ -1,0 +1,136 @@
+	*{
+	background: #6600CC;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+		}
+	
+	h1{
+	background-color: #660066;
+	font-size: 40px;
+	width:90%;
+	margin-left:60px;
+        padding:10px 30px;
+	border: 3px solid black;
+	color: white;
+	 text-align: center;
+	border-radius: 5%;
+		 }
+
+	p{
+	background-color: #660066;
+   	       color:black;
+		font-size:25px;
+		font-weight:bold;	
+		}
+
+		.menu_header{
+		margin-top:10px;
+		margin-left:60px;
+		width:90%;
+		 	}
+
+	ul{ padding:10px; background-color: #660066}
+
+		.cx_img{ 
+			height:800px; 
+			width:90%;		
+			background-color: #660066;
+			margin-top:10px;
+			margin-left:60px;
+			padding: 10px;
+			position: relative;
+				}
+
+	.topicos_menu{
+		margin-left:20px;
+		cursor: pointer;
+		color: white;
+		font-size:20px; 
+		font-weight:bold;
+		background-color: #660066;
+			}
+
+	.pai_artigos{
+		margin-top: 10px;		
+	 margin-left: 60px;
+	      height:330px;
+		width:90%;
+		padding:10px 25px 20px 25px;
+			}
+
+
+ 	.cx_artigos1{
+		height:300px;
+		width:29.5%;
+		margin-top: 0px;
+		margin-left: 0px;
+		padding:20px;
+		background-color: #660066;
+		   display: inline-block;
+		position:relative;
+			top:10px;
+		color:white;
+		font-size:20px;
+		 border-radius: 5%;
+			}
+	.cx_artigos2{
+		height:300px;
+		width:29.5%;
+		margin-top: 960px;
+		margin-left: 20px;
+		padding:20px;
+		background-color: #660066;
+		   display: inline-block;
+		position:absolute;
+			top:10px;
+		color:white;
+		font-size:20px;
+		text-align: center;
+		 border-radius: 5%;
+		 	}
+
+ 	.cx_artigos3{
+		height:300px;
+		width:29.5%;
+		margin-top: 960px;
+		margin-left: 510px;
+		padding:20px;
+		background-color: #660066;
+		   display: inline-block;
+		position:absolute;
+			top:10px;
+			color:white;
+		font-size:20px;
+	    border-radius: 5%;
+			}
+
+	footer{
+		margin-top:10px;
+		margin-left: 60px;
+		height:100px;
+		width:90%;
+		background-color: #660066;
+		border: 3px solid black;
+			}
+
+	.topicos_menu:hover {
+  	text-decoration: underline;
+		opacity:0.5;
+				}
+
+	#boxing{
+		color:white;
+		height:auto;
+		width:500px;
+		font-size:15px;
+		display:none;
+		position:absolute;
+		top:125px;
+		left:60px;
+		z-index:2;
+			}
+
+		#topico_boxe:hover{}
+
+	

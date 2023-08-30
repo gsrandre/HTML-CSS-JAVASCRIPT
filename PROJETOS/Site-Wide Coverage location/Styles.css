@@ -1,0 +1,109 @@
+*{       margin:0;  
+        padding:0;
+     box-sizing: border border-box;
+    font-family: 'Poppins', sans-serif; }
+
+header {  margin-top: 47px; margin-left: 42px;}
+
+.link-menu{font-weight: 400;
+             font-size: 14px;
+           Line-height: 21px;
+        letter-spacing: 0.88px;
+            text-align: Center;
+                 color: #17233D;
+          margin-right: 32px;
+                Cursor: pointer;}
+
+.button-sign-up{ background:#6FBF44;
+                     border: 1px solid #4CB538;
+              border-radius: 6px; 
+                     height: 51px; 
+                      width: 124px;                                                         
+                     Cursor: pointer;
+                font-Weight: 500;
+                  font-Size:16px;
+                line-height:24px;
+             letter-spacing: 1px;
+                      color:#FFFFFF;}
+
+.logo-image{  margin: 163px 0 0 123px; display: inline-block; }
+
+section{ display: inline-block; margin-left: 85px; width: 493px;}
+
+      h1{  font-size: 62px;
+         font-weight: 700;
+         line-height: 82px;
+      letter-spacing: 0.596154px;
+               color:#161A49;}
+
+      p{ font-weight: 400;
+           font-size: 18PX;
+         line-height: 33PX;
+      letter-spacing: 0.5px; 
+               color:#48505A;
+          margin-top:47;
+       margin-bottom:55px}
+
+.button-learn-more{ font-Weight:500;
+                      font-Size:18px;
+                    Line-height:27px;
+                 letter-spacing: 1px;
+                          color: #6FBF44;
+                         cursor:pointer;
+                     background: transparent;
+                         border:none}
+  
+@media screen and (max-width:1060px){
+h1{   font-style: Bold;
+   font-size: 30px;
+   Line-height: 30px;
+   Line-height: 67%;
+   Align: Center;
+   Vertical-align: Top;
+   Letter-spacing: 0.6px;
+    }
+
+    p{
+      Font-size: 18px;
+Line-height: 33px;
+Line-height: 122%;
+Align: Center;
+Vertical-align: Top;
+Letter-spacing: 0.5px;
+margin:29px 43px 26px 43px;
+    }
+
+.button-learn-more{
+   Font-size: 18px;
+Line-height: 27px;
+Line-height: 100%;
+Align: Left;
+Vertical-align: Top;
+Letter-spacing: 1px;
+}
+
+.button-sign-up{
+   Font-size: 12px;
+Line-height: 18px;
+Line-height: 100%;
+Align: Left;
+Vertical-align: Top;
+Letter-spacing: 1px;
+
+Width: 91px;
+Height:31px;
+Radius:6px;
+}
+.logo-image{
+   Width:200px;
+Height:200px;
+}
+
+}
+   
+
+
+        
+
+      
+

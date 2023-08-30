@@ -1,0 +1,33 @@
+.vo{font-size:16px}
+
+.pai{ width:50vw;
+    height:50vh;
+    background:blue;
+    color:white
+}
+
+.filho{width:50%;
+       height:50%;
+       background: red;
+       color:white
+}
+
+
+/*
+Unidade de medidas CSS
+Absolutas
+px(pixels)
+in(inches/polegadas)
+cm/mm (centímetro/Milímetro)
+
+Relativas
+% Calcula o tamanho relativo ao elemento pai
+vw (view-width) - 1vw é 1% da largura da janela do navegador
+vh(view height) 1 vh é 1% da altura da janela do navegador
+
+root emphemeral unit - raiz unidade transitória
+
+em - é uma unidade relativa ao elemento pai
+rem - é uma unidade relativa ao elemento raiz
+/*
+

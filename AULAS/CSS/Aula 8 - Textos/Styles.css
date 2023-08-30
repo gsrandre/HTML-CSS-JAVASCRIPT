@@ -1,0 +1,24 @@
+/*Propriedades dos textos*/
+
+h1 { color:red;
+    font-size: 64px;
+    font-weight: bolder;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+/*Para colocar sombra na palavra*/
+    text-shadow: 10px 10px 10px #ff0000;
+}
+p{color:blue;
+    font-size: 30px;
+    font-weight: lighter;
+   
+    font-family: 'Roboto Mono', monospace;
+        line-height: 50px;
+            letter-spacing: 10px;
+                word-spacing: 40;
+                    text-align: center;
+    /*uppercase=Deixar letras maiuscula*/
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}

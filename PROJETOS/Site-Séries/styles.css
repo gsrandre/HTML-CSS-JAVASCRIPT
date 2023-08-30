@@ -1,0 +1,90 @@
+*{
+    background: black;
+    margin:0;
+   padding:0; 
+   box-sizing: border-box;
+}
+
+.poster{
+    width: 250px;
+    height:300px;
+}
+
+.legenda-poster{
+    font-size: 30px;
+    color: white;
+   }
+
+h1{
+    color:white;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+      text-align: center;
+
+}
+
+input{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 660px;
+    font-size: 25px;
+    background: white;
+   }
+
+   button{
+        background: white;
+        height: 50px;
+        width: 150px;
+        font-size: 25px;
+        font-weight: bold;
+        cursor: pointer;
+            }
+
+
+ header{
+    font-size: 30px;
+    color:white;
+            }
+
+        .link-header{
+            margin-left:20px;
+              font-size:30px; 
+            font-weight: bold; 
+            line-height: 30px; 
+         cursor: pointer;
+            }
+
+
+#cx1{
+       position: relative;
+        }
+
+
+#cx2{
+         width: 16%;
+   margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+        position: absolute;
+    }
+
+    #cx3{
+        width: 80%;
+      margin-left: 310px;
+        margin-top: 20px;
+        padding-left: 20px;
+        position: absolute;
+        
+        }
+
+        #cx4{
+            width: 80%;
+          margin-left: 325px;
+            margin-top: 900px;
+             position: absolute;
+                    }
+
+               
+    
