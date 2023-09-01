@@ -5,51 +5,97 @@
 	box-sizing: border-box;
 		}
 	
-	h1{
+		h1{
 	background-color: #660066;
 	font-size: 40px;
 	width:90%;
 	margin-left:60px;
         padding:10px 30px;
-	border: 3px solid black;
-	color: white;
+		color: white;
 	 text-align: center;
-	border-radius: 5%;
 		 }
+
+		.menu{
+		    list-style:none;
+			/*border:1px solid #c0c0c0;*/
+		 	 float:left;
+		    margin-top:10px;
+		   margin-left:60px;
+		         width:90%;
+	      background-color: #660066
+			  	}
+
+		.menu li {
+			  position:relative;
+			     float:left;
+		     /* border-right:1px solid #c0c0c0;	*/
+			     color:white; 
+		   text-decoration:none;
+			   padding:5px 10px; display:block;
+		  background-color: #660066;
+				}
+
+
+			a{
+			   color:white;
+		background-color: #660066;
+		       font-size:25px;
+		 text-decoration: none;
+				margin-left:30px;
+					}
+
+
+			.menu li  ul{
+					position:absolute;
+				             top:25px;
+					    left:0;
+				background-color:#fff;
+					 display:none;
+						}
+					
+		.menu li a:hover{
+				   color:#fff;
+			 -moz-box-shadow:0 3px 10px 0 #CCC;
+		      -webkit-box-shadow:0 3px 10px 0 #ccc;
+			     text-shadow:0px 0px 5px #fff;
+							}
+
+		.menu li:hover ul, .menu li.over ul{display:block;}
+
+			
+		.menu li ul li{
+				border:1px solid #c0c0c0;
+				display:block;
+					width:150px;
+					}
+
+	 h3{	
+		color:white;
+		height:auto;
+		width:620px;
+		font-size:16px;
+			background-color: #6600CC;
+			display:block;
+			z-index:1;
+			position:absolute;
+				}
 
 	p{
 	background-color: #660066;
    	       color:black;
-		font-size:25px;
+		font-size:28px;
 		font-weight:bold;	
 		}
-
-		.menu_header{
-		margin-top:10px;
-		margin-left:60px;
-		width:90%;
-		 	}
-
-	ul{ padding:10px; background-color: #660066}
 
 		.cx_img{ 
 			height:800px; 
 			width:90%;		
 			background-color: #660066;
-			margin-top:10px;
+			margin-top:60px;
 			margin-left:60px;
 			padding: 10px;
-			position: relative;
+			/*position: relative;*/
 				}
-
-	.topicos_menu{
-		margin-left:20px;
-		cursor: pointer;
-		color: white;
-		font-size:20px; 
-		font-weight:bold;
-		background-color: #660066;
-			}
 
 	.pai_artigos{
 		margin-top: 10px;		
@@ -57,34 +103,29 @@
 	      height:330px;
 		width:90%;
 		padding:10px 25px 20px 25px;
+		position:relative;
 			}
-
 
  	.cx_artigos1{
 		height:300px;
 		width:29.5%;
-		margin-top: 0px;
-		margin-left: 0px;
 		padding:20px;
 		background-color: #660066;
 		   display: inline-block;
-		position:relative;
-			top:10px;
-		color:white;
+		position:absolute;
+		   color:white;
 		font-size:20px;
 		 border-radius: 5%;
 			}
 	.cx_artigos2{
 		height:300px;
 		width:29.5%;
-		margin-top: 960px;
-		margin-left: 20px;
+		margin-left: 475px;
 		padding:20px;
 		background-color: #660066;
 		   display: inline-block;
 		position:absolute;
-			top:10px;
-		color:white;
+		   color:white;
 		font-size:20px;
 		text-align: center;
 		 border-radius: 5%;
@@ -93,14 +134,12 @@
  	.cx_artigos3{
 		height:300px;
 		width:29.5%;
-		margin-top: 960px;
-		margin-left: 510px;
+		margin-left: 950px;
 		padding:20px;
 		background-color: #660066;
 		   display: inline-block;
 		position:absolute;
-			top:10px;
-			color:white;
+		   color:white;
 		font-size:20px;
 	    border-radius: 5%;
 			}
@@ -108,29 +147,118 @@
 	footer{
 		margin-top:10px;
 		margin-left: 60px;
-		height:100px;
+		height:150px;
 		width:90%;
 		background-color: #660066;
-		border: 3px solid black;
-			}
-
-	.topicos_menu:hover {
-  	text-decoration: underline;
-		opacity:0.5;
+		position:relative;
 				}
-
-	#boxing{
-		color:white;
-		height:auto;
-		width:500px;
-		font-size:15px;
-		display:none;
-		position:absolute;
-		top:125px;
-		left:60px;
-		z-index:2;
-			}
-
-		#topico_boxe:hover{}
-
 	
+
+			h4{
+			font-size:60px;
+				color: white;
+			background-color: #660066;
+				width:30%;
+				margin-top:30px;
+			 text-align: center;
+				position:absolute;
+			margin-left:35%;			
+			
+				}
+			
+			h5{
+			font-size:25px;
+			background-color: #660066;
+				position:absolute;
+				margin-left: 20px;
+				margin-top:10px;
+					}
+
+		.Creditos-criador{
+			position:absolute;
+			color: white;
+			width:30%;
+			height:auto;			
+					}
+
+		/*Abaixo referente a redes sociais*/
+
+			h6{
+			font-size:25px;
+			color: white;
+			background-color: #660066;
+				position:absolute;
+				margin-left:80%;
+				margin-top:10px;
+					}
+		
+		#youtube{	
+				height:80px;
+				width:80px;
+				position:absolute;
+				margin-top:50px;
+				margin-left:70%;
+				background-color: #660066;
+					}
+
+		#instagran{	
+				height:80px;
+				width:80px;
+				position:absolute;
+				margin-top:50px;
+				margin-left:80%;
+				background-color: #660066;
+					}
+	
+		#whatsaap{	
+				height:80px;
+				width:80px;
+				position:absolute;
+				margin-top:50px;
+				margin-left:90%;
+				background-color: #660066;
+						}
+
+			#youtube:hover{
+					margin-top:40px;
+					height:100px;
+					width:100px;
+						opacity:0.5;
+						 -moz-box-shadow:0 3px 10px 0 #CCC;
+		      -webkit-box-shadow:0 3px 10px 0 #ccc;
+			     text-shadow:0px 0px 5px #fff;
+						cursor:pointer;
+						}
+
+
+			#instagran:hover{
+					margin-top:40px;
+					height:100px;
+					width:100px;
+						opacity:0.5;
+						 -moz-box-shadow:0 3px 10px 0 #CCC;
+		      -webkit-box-shadow:0 3px 10px 0 #ccc;
+			     text-shadow:0px 0px 5px #fff;
+						cursor:pointer;
+							}
+
+
+			#whatsaap:hover{
+					margin-top:40px;
+					height:100px;
+					width:100px;
+						opacity:0.5;
+						 -moz-box-shadow:0 3px 10px 0 #CCC;
+		      -webkit-box-shadow:0 3px 10px 0 #ccc;
+			     text-shadow:0px 0px 5px #fff;
+						cursor:pointer;
+							}
+
+				
+
+				
+
+		
+
+		
+			
